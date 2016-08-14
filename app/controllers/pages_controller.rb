@@ -5,7 +5,7 @@ class PagesController < ApplicationController
   def about
   end
   
-  def upgrade
+  def signup
     @basic_plan = Plan.find(1)
     @pro_plan = Plan.find(2)
   end

@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :contacts
   
   get '/about' => 'pages#about'
-  get '/upgrade' => 'pages#upgrade'
+  get '/signup' => 'pages#signup'
   get '/items' => 'pages#items'
   
   root 'pages#home'
